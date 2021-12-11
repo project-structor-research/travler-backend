@@ -18,6 +18,5 @@ public class HelloController {
 	@ResponseBody
 	public String hello() {
 		return helloService.list().toString();
-		
 	}
 }
